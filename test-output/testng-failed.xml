@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="leaforg_automation.ParticipantDetails">
+        <methods>
+          <include name="participantDetailsUpdate"/>
+          <include name="endTest"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- leaforg_automation.ParticipantDetails -->
+      <class name="leaforg_automation.UpdateUserProfile">
+        <methods>
+          <include name="endTest"/>
+          <include name="configureAppium"/>
+          <include name="updateUserProfile"/>
+          <include name="updateUserProfileWithoutName"/>
+          <include name="updateUserProfileWithPhoneNumberOnly"/>
+        </methods>
+      </class> <!-- leaforg_automation.UpdateUserProfile -->
+      <class name="leaforg_automation.BatchesUpdate">
+        <methods>
+          <include name="endTest"/>
+          <include name="configureAppium"/>
+          <include name="batchesUpdate"/>
+        </methods>
+      </class> <!-- leaforg_automation.BatchesUpdate -->
+      <class name="leaforg_automation.LogIn">
+        <methods>
+          <include name="endTest"/>
+          <include name="configureAppium"/>
+          <include name="loginWithoudEmailPassword"/>
+        </methods>
+      </class> <!-- leaforg_automation.LogIn -->
+      <class name="leaforg_automation.Registration">
+        <methods>
+          <include name="endTest"/>
+          <include name="configureAppium"/>
+          <include name="registrationWithInvalidInput"/>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- leaforg_automation.Registration -->
+      <class name="leaforg_automation.ChangePassword">
+        <methods>
+          <include name="endTest"/>
+          <include name="configureAppium"/>
+          <include name="changePassword"/>
+          <include name="changePasswordWithoutChange"/>
+        </methods>
+      </class> <!-- leaforg_automation.ChangePassword -->
+      <class name="leaforg_automation.ForgetPassword">
+        <methods>
+          <include name="endTest"/>
+          <include name="forgetPassword"/>
+          <include name="configureAppium"/>
+          <include name="forgetPasswordWithWrongEmail"/>
+        </methods>
+      </class> <!-- leaforg_automation.ForgetPassword -->
+      <class name="leaforg_automation.ContactSupport">
+        <methods>
+          <include name="endTest"/>
+          <include name="contactSupportWithoutContent"/>
+          <include name="configureAppium"/>
+          <include name="contactSupport"/>
+        </methods>
+      </class> <!-- leaforg_automation.ContactSupport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

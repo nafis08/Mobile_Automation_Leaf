@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="leaforg_automation.LogIn"/>
+      <class name="leaforg_automation.ContactSupport"/>
+      <class name="leaforg_automation.ChangePassword"/>
+      <class name="leaforg_automation.ParticipantDetails"/>
+      <class name="leaforg_automation.Registration"/>
+      <class name="leaforg_automation.UpdateUserProfile"/>
+      <class name="leaforg_automation.ForgetPassword"/>
+      <class name="leaforg_automation.BatchesUpdate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
